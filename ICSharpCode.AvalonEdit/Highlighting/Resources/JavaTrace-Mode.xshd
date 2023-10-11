@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- syntaxdefinition for Java 2001 by Jonathan Pierce & Mike Krueger -->
+<!-- converted to AvalonEdit format by Siegfried Pammer in 2010 -->
+<SyntaxDefinition name="JavaTrace" extensions=".txt" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+
+  <Color name="coreTags" foreground="Red" fontWeight="bold" fontStyle="italic" />
+  <Color name="dagpTags" foreground="Orange" fontWeight="bold" fontStyle="italic" />
+  <RuleSet ignoreCase="true">
+    <Keywords color="dagpTags">
+      <Word>com.enhe.core</Word>
+    </Keywords>
+    <Keywords color="coreTags">
+      <Word>com.enhe.dagp</Word>
+    </Keywords>
+  </RuleSet>
+</SyntaxDefinition>
